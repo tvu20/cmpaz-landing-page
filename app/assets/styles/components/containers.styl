@@ -1,0 +1,45 @@
+// container padding
+body .container
+  padding 0 3rem
+  margin 0
+  max-width 1200px
+
+  @media (min-width 720px)
+    &.wide
+      padding 0
+      max-width unset
+
+  &.grid-list-xl
+    overflow hidden
+
+.offset-header-height
+  padding-bottom 120px !important
+
+  @media (max-width: 600px)
+    padding-bottom 104px !important
+
+// protect max-width 100%
+.container.fluid
+  max-width 100% !important
+  // container fluid padding to 0
+  padding-left 0 !important
+  padding-right 0 !important
+
+@media (max-width: 1024px)
+  .container
+    padding-left 3rem !important
+    padding-right 3rem !important
+
+@media (max-width: 600px)
+  .container
+    padding-left 24px !important
+    padding-right 24px !important
+
+    // &.wide
+    //   padding-left 40px !important
+    //   padding-right 40px !important
+
+@media (max-width: 340px)
+  .container
+    padding-left 32px !important
+    padding-right 32px !important

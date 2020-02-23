@@ -1,0 +1,23 @@
+.v-btn
+  // remove default margin above and below the button
+  margin 0
+  border-radius 5px
+
+  &:not(.v-btn--icon):not(.v-btn--flat)
+    border-radius 5px
+
+.v-btn__content
+  // remove default margin above and below the button
+  line-height 1
+  // adjustment for font-size
+  // bottom 1px
+
+// small button
+.v-btn--small
+  padding 6px 12px
+
+.v-btn--active:before,
+.v-btn:hover:before,
+.v-btn:focus:before
+  // background-color unset
+  background-color rgba(0,0,0,0.65)
