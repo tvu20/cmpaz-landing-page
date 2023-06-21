@@ -22,7 +22,7 @@
     "animate.css": "^3.7.2",
     "graphql-tag": "^2.10.1",
     "moment-timezone": "^0.5.27",
-    "nuxt": "^2.11.0",
+    "nuxt": "^3.4.3",
     "nuxt-svg-loader": "^1.0.1",
     "storyblok-nuxt": "^1.0.2",
     "vue-media-query-mixin": "^0.1.0"
